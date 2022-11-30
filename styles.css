@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.conteiner-imagens {
+    position: relative;
+}
+
+.imagem-celular {
+    height: 529px;
+    position: absolute;
+    left: 150px;
+    top: 24px;
+    transition: 2s ease-in-out;
+}
+
+.conteiner-itens {
+
+    width: 350px;
+}
+
+.conteiner-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-top: 5px;
+    color: blue;
+}
+
+button {
+    background: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.login-facebook {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.esqueceu-senha {
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.conteiner-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+.link-cadastro {
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.paragrafo-conta {
+    font-size: 14px;
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.conteiner-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.logo-app {
+    width: 150px;
+    justify-content: center;
+
+}
